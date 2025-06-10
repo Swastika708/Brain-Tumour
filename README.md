@@ -43,11 +43,47 @@ This project is a **Deep Learning-based web application** that detects brain tum
 
 ## 🖥️ How to Run Locally
 ### 1. Clone the repository
-
 ```bash
 git clone https://github.com/Swastika708/Brain-Tumour.git
 cd Brain-Tumour/BTDfinal
 pip install -r requirements.txt #Install dependencies
 pip install flask tensorflow keras numpy pandas matplotlib #If requirements.txt is not available, install manually:
 python app.py #run the app
+
+---
+
+## 📁 Project Structure
+BTDfinal/
+├── templates/ # HTML files for Flask
+│ └── index.html
+├── static/ # CSS or static assets
+├── app.py # Flask app (main entry point)
+├── model.h5 # Trained CNN model
+├── predict.py # Tumor prediction logic
+├── sample_mri_scan.png # Sample MRI image (optional)
+└── README.md # Project documentation
+
+---
+
+## 📌 Features
+- 🧠 Real-time tumor detection from MRI scans
+- ⚡ Lightweight and fast Flask server
+- 🎯 Clean, minimal UI
+- 🧬 Trained on real-world medical data
+- ✅ Achieves ~85% accuracy on test data
+
+---
+
+## 🧠 Author
+**Swastika Kumari**  
+📧 [swastikathakur2345@gmail.com](mailto:swastikathakur2345@gmail.com)  
+🌐 [LinkedIn](https://www.linkedin.com/in/swastika-kumari-a7bb61228/)  
+💻 [GitHub](https://github.com/Swastika708)
+
+---
+
+## 📄 License
+This project is open source and free to use under the [MIT License](https://opensource.org/licenses/MIT).
+
+---
 
